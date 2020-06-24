@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Event Management</title>
+  </head>
+  <body>
+  <div style="text-align:center">
+
+   <h1>Xena EVENTS   </h1>
+    <img  style = "width:70px ; length:70px " src="https://cdn.britannica.com/84/158184-050-1D7ADEB5/balloon.jpg" alt="">
+  </div>
+
+  <br>
+  <br>
+<div style="text-align:center">
+  <form  action="index.html" method="post">
+
+    <label>Enter Your Name : </label>
+    <input type="text" name="name" value="" pattern="^[A-Za-z -]+$">
+    <br>
+    <label>Enter Your Age : </label>
+    <input type="number" name="age" min="18" value="">
+    <br>
+    <label for="">Email :  </label>
+    <input type="email" name="email" value="">
+<br>
+<label>Enter Your City :</label>
+    <input list="city" type="text">
+
+ <datalist id="city">
+     <option value="Rajkot"/>
+     <option value="Vizag"/>
+     <option value="Bangalore"/>
+ </datalist>
+
+    <button type="submit" name="button">Submit</button>
+  </form>
+
+
+</div>
+  </body>
+</html>
